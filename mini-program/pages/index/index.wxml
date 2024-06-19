@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="order-title">Already Ordered:</view>
+  <block>
+    <view wx:for="{{ foods }}" wx:key="idx" wx:for-index="idx" wx:for-item="item">{{ item.userId }}号用户点了{{ item.food }}</view>
+  </block>
+  <view class="command">Please Select Foods:</view>
+  <button type="primary" class="button" bind:tap="onOrderFood" data-attr="chicken">Chicken</button>
+  <button type="primary" class="button" bind:tap="onOrderFood" data-attr="beef">Beef</button>
+  <button type="primary" class="button" bind:tap="onOrderFood" data-attr="meat">Meat</button>
+</view>

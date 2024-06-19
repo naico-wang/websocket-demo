@@ -1,0 +1,22 @@
+.container {
+  padding: 24px;
+  font-size: 14px;
+}
+
+.order-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button {
+  margin: 10px 0;
+  padding: 0;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.command {
+  margin-top: 40px;
+}
+
